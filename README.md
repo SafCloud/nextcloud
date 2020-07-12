@@ -164,7 +164,8 @@ Your credentials for postfix admin (https://mail.yourdomain.com) are:  user/pass
 ## Administration
 
 - `spam.$DOMAIN`: Email spam filter ([rspamd](https://www.rspamd.com/))
-- `mail.$DOMAIN`: Administrate email and create accounts ([postfixadmin](http://postfixadmin.sourceforge.net/)) when not using the "self service" `welcome.$DOMAIN` - this requires you to set a intermediate password during account creation.
+- `mail.$DOMAIN`: Administrate email and create accounts ([postfixadmin](http://postfixadmin.sourceforge.net/)) when not using the "self service" -  - `welcome.$DOMAIN` - this requires you to set a intermediate password during account creation.
+- `dba.$DOMAIN`: Database administration ([phpmyadmin.net](https://www.phpmyadmin.net/))
 
 ## Setting up /e/ OS with /e/ selfhosting
 
